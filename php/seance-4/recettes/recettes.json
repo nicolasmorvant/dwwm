@@ -1,0 +1,22 @@
+{
+    "recettes": [
+        {
+            "titre": "omelette",
+            "description": "une recette classique",
+            "listeIngredients": "on prend les oeufs et on les casses et on met dans la poelle",
+            "listeOperations": "oeufs, huile d'olive"
+        },
+        {
+            "titre": "omelette2",
+            "description": "une recette classique",
+            "listeIngredients": "on prend les oeufs et on les casses et on met dans la poelle",
+            "listeOperations": "oeufs, huile d'olive"
+        },
+        {
+            "titre": "omelette3",
+            "description": "une recette classique",
+            "listeIngredients": "on prend les oeufs et on les casses et on met dans la poëlle",
+            "listeOperations": "oeufs, huile d'olive"
+        }
+    ]
+}

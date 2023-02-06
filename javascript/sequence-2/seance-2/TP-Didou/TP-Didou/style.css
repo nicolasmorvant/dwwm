@@ -1,0 +1,19 @@
+#images
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+}
+
+img
+{
+    width: 190px;
+}
+
+#id_image
+{
+    width: 300px;
+    margin: 0 auto;
+}
+

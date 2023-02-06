@@ -1,0 +1,10 @@
+let rayon = prompt("Quel est le rayon du cercle : ");
+//console.log(typeof(rayon));
+rayon=parseInt(rayon);
+//console.log(typeof(rayon));
+let resultat = Math.PI * (rayon**2);
+resultat = Math.round(resultat);
+console.log(resultat);
+//console.log(typeof(resultat));
+//console.log(typeof(3.4));
+alert(`L'aire du cercle est ${resultat}`);

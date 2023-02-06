@@ -1,0 +1,42 @@
+*,::before,::after{
+    
+    box-sizing: border-box;
+}
+
+#calculatrice
+{
+    margin: 10vh auto 0;
+    width: 700px;
+    max-width: 80%;
+    height: 80vh;
+    display: grid;
+    grid-template-rows: repeat(9,1fr);
+    grid-template-columns: repeat(8,1fr);
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #534E54;
+}
+
+#ecran
+{
+    grid-area: 2/2/4/8;
+    color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: right;
+    background-color: #D1E6DD;
+}
+
+#chiffres
+{
+    grid-area: 5/2/9/5;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+#operations
+{
+    grid-area: 5/6/9/8;
+    border: 2px solid white;
+    border-radius: 5px;
+}

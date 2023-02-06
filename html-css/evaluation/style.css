@@ -1,0 +1,120 @@
+*,::before,::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+header
+{
+    background-image: url(img/baniere-star.jpg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+}
+
+header > img
+{
+    width: 50px;
+}
+
+h1
+{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+nav
+{
+    background-color: #5BC9C8;
+    padding: 10px;
+}
+
+nav ul
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover
+{
+    background-color: black;
+}
+
+.presentation
+{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.secnasa
+{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    margin-top: 15px;
+}
+
+.nasa
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nasa > img
+{
+    width: 150px;
+}
+
+
+.syssol
+{
+    width: 700px;
+    height: 200px;    
+}
+
+.s2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.s2 p
+{
+    font-variant: small-caps;
+    font-style: italic;
+    background-color: lightgrey;
+    padding: 5px 0 5px 10px;
+}
+
+.s2 img
+{
+    width: 200px;
+    height: 200px;
+}

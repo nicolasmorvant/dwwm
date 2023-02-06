@@ -1,0 +1,252 @@
+*,::before,::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-image: url(img/baniere-star.jpg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    height: 20vh;
+}
+
+header > img
+{
+    width: 50px;
+}
+
+h1
+{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 10px;
+    
+}
+
+nav
+{
+    background-color: #5BC9C8;
+    padding: 10px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.5) ;
+}
+
+nav ul
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover
+{
+    background-color: #002142;
+}
+
+main
+{
+    align-items: center;
+    margin-top: 15px;
+}
+
+#flexible
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nasa
+{
+   height: 250px; 
+}
+
+.nasa img
+{
+    width: 120px;
+}
+
+.nasa p
+{
+    text-align: center;
+}
+
+.syssol
+{
+    margin-left: 20px;
+    align-items: flex-end;
+}
+
+.syssol img
+{
+    width : 1000px;
+    height: 250px;
+}
+
+.syssol p
+{
+    text-align: right;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+footer img
+{
+    width : 400px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.alignVertical
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.comments
+{
+    font-variant: small-caps;
+    font-style: italic;
+    background-color: lightgrey;
+    padding: 5px 0 5px 10px;
+}
+
+@media screen and (max-width : 600px){
+    body
+    {
+        background-color: #5BC9C8;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header
+    {
+        height: 200px;
+    }
+    header img
+    {
+        width : 150px;
+        height: 150px;
+        border-radius: 2px solid white;
+    }
+    img
+    {
+        width : 200px;
+        height : 100px;
+    }
+    nav
+    {
+        margin-top: 10px;
+        background-color: black;
+        border-radius: 5px;
+    }
+    ul li:not(:first-child)
+    {
+        padding-left: 10px;
+    }
+    a:hover
+    {
+        color: #30936E;
+        background-color: black;
+    }
+    main > p
+    {
+        text-align: center;
+        width: 400px;
+    }
+    section
+    {
+        align-items: center;
+        margin-left:50px;
+        margin-right: 10px;
+    }
+    .nasa, .syssol
+    {
+        max-width: 400px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .syssol img
+    {
+        width : 300px;
+    }
+    .syssol p
+    {
+        width: 300px;
+        text-align: left;
+    }
+    footer 
+    {
+        display: flex;
+        flex-direction: column;
+    } 
+    footer div:not(:first-child)
+    {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width : 400px){
+    body
+    {
+        margin-top: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header
+    {
+        height: 150px;
+    }
+    header img
+    {
+        width : 100px;
+        height: 120px;
+        border-radius: 2px solid white;
+    }
+    nav
+    {
+        width : 365px;
+    }
+    section
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    section img
+    {
+        margin-right: 60px;
+    }
+    footer div img
+    {
+        width: 300px;
+    }
+}

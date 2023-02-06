@@ -1,0 +1,36 @@
+#chargement {
+    background-color: lightblue;
+    min-height: 100vh;
+}
+
+#contenu {
+    background-color: whitesmoke;
+    display: none;
+}
+img
+{
+    width: 200px;
+    height: 200px;
+}
+#listeImages
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: aquamarine; */
+}
+
+nav
+{
+    padding: 5px;
+}
+p{
+display:inline ;
+/* background-color: aqua; */
+width: 100%;
+}
+.boiteImage
+{
+    overflow: hidden;
+    margin: 1%;
+}

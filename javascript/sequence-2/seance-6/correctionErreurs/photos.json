@@ -1,0 +1,29 @@
+{
+    "listePicture": [
+        {
+            "nomFichier": "pictures/IMG_5366.jpg",
+            "description": "Rémi"
+        },
+        {
+            "nomFichier": "pictures/IMG_5367.jpg",
+            "description": "Brendon, James et Laurent"
+        },
+        {
+            "nomFichier": "pictures/IMG_5368.jpg",
+            "description": "Dylan"
+        },
+        {
+            "nomFichier": "pictures/IMG_5376.jpg",
+            "description": "Nathalie et Rémi"
+        },
+        {
+            "nomFichier": "pictures/IMG_5377.jpg",
+            "description": "Laurent et James"
+        },
+        {
+            "nomFichier": "pictures/IMG_5379.jpg",
+            "description": "Ilan"
+        }
+    ],
+    "perPicture": 1
+}

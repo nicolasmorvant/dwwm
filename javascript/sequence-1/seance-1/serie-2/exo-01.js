@@ -1,0 +1,1 @@
+let ask = prompt("Comment vas-tu ?");

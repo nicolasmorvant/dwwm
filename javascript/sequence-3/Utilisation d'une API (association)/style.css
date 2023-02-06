@@ -1,0 +1,26 @@
+*,::before,::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+form
+{
+    margin: 0 auto;
+    width: 700px;
+    height: auto;
+}
+
+label
+{
+    font-variant: small-caps;   
+}
+
+fieldset
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+}
